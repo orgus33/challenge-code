@@ -1,2 +1,2 @@
 # challenge-code
-Résultats des challenges
+Intégration de maquette pour les challenge (discord ou autre)
