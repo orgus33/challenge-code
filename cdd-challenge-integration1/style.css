@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+html {
+  background-color: #6b645c;
+}
+
+body {
+  max-width: 1026px;
+  margin: 8px auto;
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  background-color: #fff;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 10px;
+  font-size: 1.1em;
+}
+
+header ul li {
+  width: 144px;
+  height: 118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header ul li:first-child {
+  background-color: #662f32;
+  color: #fff;
+}
+
+header .title-header {
+  text-transform: capitalize;
+  font-size: 7.5em;
+  font-weight: bold;
+}
+
+header .title-header .red {
+  color: #662f32;
+}
+
+header .title-header .title-header::first-letter {
+  word-spacing: 0;
+}
+
+header img {
+  width: 100%;
+}
+
+.sec-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-1 .card {
+  margin-top: 20px;
+  width: 288px;
+  height: 440px;
+  position: relative;
+  background-color: #645955;
+}
+
+.sec-1 .card h2 {
+  color: #fff;
+  background-color: #662f32;
+  font-weight: 300;
+  margin: 0px;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+.sec-1 .card .img-card {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.sec-1 .card p {
+  text-align: left;
+  margin: 0;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-family: sans-serif, Helvetica, sans-serif;
+  line-height: 17px;
+}
+
+.sec-1 .card .add-card {
+  position: absolute;
+  width: 4.5em;
+  right: 0;
+  bottom: 0;
+}
+
+.sec-1 .card .add-card:hover {
+  content: url("img/plus_btn_h.png");
+}
+
+.sec-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.sec-2 .info {
+  width: 30%;
+  margin-top: 35px;
+}
+
+.sec-2 .info .title-info {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.sec-2 .info ul {
+  list-style-image: url(img/arrow.png);
+  margin: 0;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+.sec-2 .info ul li {
+  margin-top: 15px;
+  line-height: 18px;
+}
+
+.sec-2 .info p {
+  line-height: 18px;
+}
+
+.sec-2 .info .sub-title-info {
+  color: #662f32;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.sec-2 .info button {
+  color: #fff;
+  background-color: #574c48;
+  border: none;
+  font-size: 18px;
+  padding: 10px 14px 24px 14px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 109px;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  width: 12%;
+}
+
+footer .logo .logo_1:hover {
+  content: url(img/reseaux/f_h.png);
+}
+
+footer .logo .logo_2:hover {
+  content: url(img/reseaux/t_h.png);
+}
+
+footer .logo .logo_3:hover {
+  content: url(img/reseaux/g_h.png);
+}
+/*# sourceMappingURL=style.css.map */
