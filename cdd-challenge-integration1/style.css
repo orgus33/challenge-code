@@ -20,6 +20,8 @@ header ul {
       justify-content: space-around;
   margin: 0 10px;
   font-size: 1.1em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 header ul li {
@@ -55,6 +57,18 @@ header .title-header .title-header::first-letter {
   word-spacing: 0;
 }
 
+@media screen and (max-width: 750px) {
+  header .title-header {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .title-header {
+    font-size: 3.3em;
+  }
+}
+
 header img {
   width: 100%;
 }
@@ -73,6 +87,8 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sec-1 .card {
@@ -136,10 +152,12 @@ header img {
           align-items: flex-start;
   text-align: left;
   margin-bottom: 28px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sec-2 .info {
-  width: 30%;
+  width: 288px;
   margin-top: 35px;
 }
 
@@ -217,5 +235,23 @@ footer .logo .logo_2:hover {
 
 footer .logo .logo_3:hover {
   content: url(img/reseaux/g_h.png);
+}
+
+@media screen and (max-width: 750px) {
+  footer .logo {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer .logo {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer .logo {
+    margin-right: 60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

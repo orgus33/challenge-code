@@ -21,6 +21,7 @@ header {
 		justify-content: space-around;
 		margin: 0 10px;
 		font-size: 1.1em;
+		flex-wrap: wrap;
 
 		li {
 			width: 144px;
@@ -50,6 +51,18 @@ header {
 		}
 	}
 
+	@media screen and (max-width: 750px) {
+		.title-header {
+			font-size: 5em;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+		.title-header {
+			font-size: 3.3em;
+		}
+	}
+
 	img {
 		width: 100%;
 	}
@@ -62,6 +75,7 @@ header {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
 
 	.card {
 		margin-top: 20px;
@@ -118,9 +132,10 @@ header {
 	align-items: flex-start;
 	text-align: left;
 	margin-bottom: 28px;
+	flex-wrap: wrap;
 
 	.info {
-		width: 30%;
+		width: 288px;
 		margin-top: 35px;
 
 		.title-info {
@@ -188,6 +203,24 @@ footer {
 
 		.logo_3:hover {
 			content: url(img/reseaux/g_h.png);
+		}
+	}
+
+	@media screen and (max-width: 750px) {
+		.logo {
+			margin-right: 25px;
+		}
+	}
+
+	@media screen and (max-width: 650px) {
+		.logo {
+			margin-right: 40px;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+		.logo {
+			margin-right: 60px;
 		}
 	}
 }
